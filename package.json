@@ -9,14 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@erc725/erc725.js": "^0.14.4",
+    "@lukso/lsp-factory.js": "^2.3.3",
+    "@lukso/lsp-smart-contracts": "^0.6.2",
+    "dexie": "^3.2.2",
+    "dexie-react-hooks": "^1.1.1",
+    "ipfs": "^0.63.5",
+    "ipfs-pubsub-room": "^3.0.0",
     "next": "12.2.5",
+    "orbit-db": "^0.28.7",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.5",
+    "web3": "^1.7.5"
   },
   "devDependencies": {
     "@types/node": "18.7.12",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "babel-plugin-styled-components": "^2.0.7",
     "eslint": "8.22.0",
     "eslint-config-next": "12.2.5",
     "typescript": "4.7.4"
