@@ -3,7 +3,7 @@ import React, { FC } from "react";
 import styled from "styled-components";
 import Avatar from "./Avatar";
 import Text from "./Text";
-import ellipsisAddress from "../utils/ellipsisAddress.js";
+import ellipsisAddress from "../utils/ellipsisAddress";
 
 interface props {
   contact: IContact;

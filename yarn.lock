@@ -3842,6 +3842,11 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+cryptico-js@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/cryptico-js/-/cryptico-js-1.1.0.tgz#8b333e23aaddfce819fd2f5e49043f81397531d6"
+  integrity sha512-ODVGwsGIHOCfOYhM60uf3UvmGI7UR5K+Y7uoPfH8wRC0gd1pbWuEW5dR7qOZdSO5vLLORYi1G90gd22lGT/5Zw==
+
 crypto-browserify@3.12.0:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/crypto-browserify/-/crypto-browserify-3.12.0.tgz#396cf9f3137f03e4b8e532c58f698254e00f80ec"

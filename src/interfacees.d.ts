@@ -1,5 +1,5 @@
 interface IContact {
-  name?: string;
   universalProfile: string;
+  name?: string;
   imgUrl?: string;
 }

@@ -12,6 +12,7 @@
     "@erc725/erc725.js": "^0.14.4",
     "@lukso/lsp-factory.js": "^2.3.3",
     "@lukso/lsp-smart-contracts": "^0.6.2",
+    "cryptico-js": "^1.1.0",
     "dexie": "^3.2.2",
     "dexie-react-hooks": "^1.1.1",
     "ipfs": "^0.63.5",

@@ -30,12 +30,15 @@ const Home: NextPage = () => {
       <SContainer>
         <img width={300} src="Chat.png" alt="chat" />
         <STextBox>
-          <Text type="h3" style={{ width: "50ch", textAlign: "center", marginBottom: "2rem"}}>
+          <Text
+            type="h3"
+            style={{ width: "50ch", textAlign: "center", marginBottom: "2rem" }}
+          >
             Treally Chat
           </Text>
           <Text style={{ width: "50ch", textAlign: "center" }}>
-            Start chatting with your contacts. A messaging key will be added to
-            your Universal Profile.
+            Start decentralized chats with your contacts using a messaging
+            key added to your Universal Profile.
           </Text>
         </STextBox>
       </SContainer>
