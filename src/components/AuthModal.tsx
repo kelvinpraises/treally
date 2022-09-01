@@ -3,10 +3,10 @@ import styled from "styled-components";
 import InitContext from "../context/init";
 import ModalContext from "../context/modal";
 import { checkPasswordMatch, getPublicKey } from "../services/encrypt";
-import { getMek, setMEK } from "../services/mEKs";
+import { getMek, setMEK } from "../services/message-encryption-key";
 import Text from "./Text";
 
-const SModal = styled.div`
+const SAuthModal = styled.div`
   position: fixed;
   left: 0;
   top: 0;
@@ -90,7 +90,7 @@ const SButton = styled.div`
   }
 `;
 
-const Modal: React.FC = () => {
+const AuthModal: React.FC = () => {
   const {
     mEKDetails,
     mEKLoading,
@@ -133,7 +133,7 @@ const Modal: React.FC = () => {
   }
 
   return (
-    <SModal onClick={() => setAuthModal(false)}>
+    <SAuthModal onClick={() => setAuthModal(false)}>
       {mEKLoading ? (
         <SModalContent onClick={(e) => e.stopPropagation()}>
           <SFlex style={{ display: "grid", placeItems: "center" }}>
@@ -190,8 +190,8 @@ const Modal: React.FC = () => {
           </SButton>
         </SModalContent>
       )}
-    </SModal>
+    </SAuthModal>
   );
 };
 
-export default Modal;
+export default AuthModal;

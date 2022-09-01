@@ -2,7 +2,7 @@ import React, { useCallback, useContext } from "react";
 import styled from "styled-components";
 import InitContext from "../context/init";
 import ModalContext from "../context/modal";
-import { getMek } from "../services/mEKs";
+import { getMek } from "../services/message-encryption-key";
 import Text from "./Text";
 
 const SButton = styled.div`

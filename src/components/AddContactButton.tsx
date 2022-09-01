@@ -39,7 +39,7 @@ const AddContactButton: React.FC = () => {
 
   return (
     <SButton onClick={() => setContactModal(true)}>
-      <Text type="h6">Add Contact</Text>
+      <Text type="h6">Add New Contact</Text>
     </SButton>
   );
 };

@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Navigation from "./Navigation";
 import styled from "styled-components";
-import Modal from "./Modal";
+import AuthModal from "./AuthModal";
+import AddContactModal from "./AddContactModal";
 
 interface IScaffoldProp {
   children: React.ReactNode;
@@ -20,7 +21,8 @@ const Scaffold: React.FC<IScaffoldProp> = ({ children }) => {
     <SScaffold>
       <Navigation />
       <SContainer>{children}</SContainer>
-      <Modal />
+      <AuthModal />
+      <AddContactModal />
     </SScaffold>
   );
 };

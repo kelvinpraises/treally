@@ -13,7 +13,7 @@
     "@lukso/lsp-factory.js": "^2.3.3",
     "@lukso/lsp-smart-contracts": "^0.6.2",
     "cryptico-js": "^1.1.0",
-    "dexie": "^3.2.2",
+    "dexie": "^4.0.0-alpha.4",
     "dexie-react-hooks": "^1.1.1",
     "ipfs": "^0.63.5",
     "ipfs-pubsub-room": "^3.0.0",
